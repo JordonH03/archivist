@@ -1,0 +1,17 @@
+{
+    "name": "archivist",
+    "type": "module",
+    "verson": "1.0.0",
+    "description": "Archive tasks with the done status at the end of each day",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@notionhq/client": "^1.0.1",
+        "chalk": "^5.2.0",
+        "dotenv": "^16.0.3"
+    },
+    "author": "Jordon Hong <jordonhong03@gmail.com>",
+    "license": "MIT"
+}
