@@ -1,7 +1,7 @@
 {
     "name": "archivist",
     "type": "module",
-    "verson": "1.0.0",
+    "verson": "1.0.1",
     "description": "Archive tasks with the done status at the end of each day",
     "main": "index.js",
     "scripts": {

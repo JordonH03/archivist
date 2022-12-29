@@ -22,6 +22,7 @@ async function archivePages() {
         const pageId = page.id;
 
         const response = await archivePage(pageId);
+        console.log(response);
     }
 
     console.log(success + `Archived ${pages.length} pages.`);
@@ -58,7 +59,7 @@ async function getDatabasePages() {
         while (true) {
 
         // Get the next batch of pages from the database
-        console.log(pending + 'Fetching next batch of pages from database...');
+        console.log(pending + 'Fetching pages from database...');
         const { results, next_cursor } = await notion.databases.query({
             database_id: databaseId,
             start_cursor: cursor,
